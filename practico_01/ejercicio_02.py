@@ -8,7 +8,16 @@ def maximo_encadenado(a: float, b: float, c: float) -> float:
     Referencia: https://docs.python.org/3/reference/expressions.html#comparisons
     """
     pass # Completar
-
+    if (a>b) and (a>c):
+        pass
+        mayor=a
+    if (b>a) and (b>c):
+        pass
+        mayor=b
+    if (c>a) and (c>b):
+        pass
+        mayor=c
+    return mayor
 
 # NO MODIFICAR - INICIO
 assert maximo_encadenado(1, 10, 5) == 10
